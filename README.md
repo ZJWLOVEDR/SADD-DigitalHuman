@@ -1,10 +1,16 @@
-数字人视频制作流程（SOP）
+**State-Aware Decoupled Driving for Real-Time Conversational Digital Humans**
+====
+
+**Step1**
+
+数字人制作流程（SOP）
 
 目标：从「生图 → 生视频 → 超分 → PR（拼接/剪辑/抠图等）」形成可复用的操作文档。
 
 说明：ComfyUI生图→ps处理细节和调整图片中人物占比→ps换背景→AI图片超分→生成视频（LTX/Vidu）→AI视频超分→PR拼接→PR抠图→PR导出连续图片帧。
 
 参考流程图：
+
 <img width="420" height="172" alt="image" src="https://github.com/user-attachments/assets/9854bfb7-dc14-48fa-9e48-1ec0de51438b" />
 
 
@@ -30,11 +36,13 @@
 
 1) ComfyUI 生图（形象生成）
 
+
 1.1 生图目标
 
 生成数字人关键形象（正面/表情变化）
 
 尽量保证：脸一致性、服装一致性、光照与色彩一致性
+
 
 1.2 记录信息
 
@@ -62,9 +70,12 @@ Seed（在进行探索式工作时需要主动记录）
 在进行动作类视频生成时，往往需要记录对应的种子，方便日后复现
 
 图片展示如下：
+
 <img width="395" height="383" alt="image" src="https://github.com/user-attachments/assets/cf0389ff-9d62-4118-91cf-c0e6dff4fad6" />
 
+
 1.3 ComfyUI 工作流示例
+
 <img width="420" height="201" alt="image" src="https://github.com/user-attachments/assets/dd15522b-034c-48a4-b045-b508d48c1a02" />
 
 
